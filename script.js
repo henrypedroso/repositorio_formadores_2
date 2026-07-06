@@ -1,13 +1,10 @@
-<button onclick = "verificaAprovacao()">Coletar nota</button>
-
-function verificaAprovacao() {
-    let nota = prompt ("Qual é a nota?");
-
-    if(nota >= 7){
-        alert("Aprovado")
-    }else{
-         alert("Reprovado")
-    }
+JavaScript
+function verificaIdade() {
+    let idade = prompt("Qual é a sua idade?");
     
+    if(idade >= 18) {
+        console.log("já pode dirigir");
+    } else {
+        console.log("não pode dirigir");
+    }
 }
-
