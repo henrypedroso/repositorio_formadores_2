@@ -1,3 +1,4 @@
+JavaScript
 function verificaIdade() {
     let idade = prompt("Qual é a sua idade?");
     
