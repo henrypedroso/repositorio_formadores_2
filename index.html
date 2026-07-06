@@ -2,14 +2,23 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste de Idade Separado</title>
+    <title>Teste de Idade</title>
 </head>
 <body>
 
     <button onclick="verificaIdade()">Verificar idade</button>
 
-    <script src="script.js"></script>
+    <script>
+        function verificaIdade() {
+            let idade = prompt("Qual é a sua idade?");
+            
+            if(idade >= 18) {
+                console.log("já pode dirigir");
+            } else {
+                console.log("não pode dirigir");
+            }
+        }
+    </script>
 
 </body>
 </html>
