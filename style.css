@@ -1,11 +1,8 @@
-/* Estilo padrão (Modo Claro) */
-body {
-  background-color: #ffffff;
-  color: #000000;
+body.modo-escuro{
+    background-color: #2b2b2b;
+    color: #ffebd7;
 }
 
-/* Estilo para quando o JS adicionar a classe 'modo-escuro' */
-body.modo-escuro {
-  background-color: #121212;
-  color: #ffffff;
+body.modoescuro .conteudo a{
+    color: #ffebd7 
 }
