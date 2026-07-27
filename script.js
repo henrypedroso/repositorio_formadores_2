@@ -16,9 +16,9 @@ function alternaModoEscuro() {
   document.body.classList.toggle('modo-escuro');
 
   if (document.body.classList.contains('modo-escuro')) {
-    botao.textContent = "Modo Escuro"; // Texto para voltar ao claro
+    botao.textContent = "Modo Escuro"; 
   } else {
-    botao.textContent = "Modo Claro"; // Texto para ir ao escuro
+    botao.textContent = "Modo Claro"; 
   }
 }
 
