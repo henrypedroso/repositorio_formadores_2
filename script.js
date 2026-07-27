@@ -16,5 +16,5 @@ function alternaModoEscuro() {
   document.body.classList.toggle('modo-escuro');
 }
 
-// Adiciona o ouvinte de clique fora da função
+
 botao.addEventListener('click', alternaModoEscuro);
