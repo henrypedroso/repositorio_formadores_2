@@ -18,7 +18,7 @@ function alternaModoEscuro() {
   if(document.body.classList.contains(modo-escuro)){
     botao.textContent = "modo-claro"
   }else{
-    botao.textContent = "modo-claro"
+    botao.textContent = "modo-escuro"
   }
 }
 
