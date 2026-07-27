@@ -3,9 +3,11 @@ JavaScript
 const botao = document.getElementById('botao-tema');
 
 function alternaModoEscuro(){
-    document.body.classList.toggle(modo-escuro);
-    botao.addEventListener('click', alternaModoEscuro);
+    document.body.classList.toggle('modo-escuro');
+   
 }
+
+ botao.addEventListener('click', alternaModoEscuro);
 
 
 function verificaIdade() {
