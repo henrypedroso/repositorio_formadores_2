@@ -14,6 +14,12 @@ const botao = document.getElementById('botao-tema');
 
 function alternaModoEscuro() {
   document.body.classList.toggle('modo-escuro');
+
+  if(document.body.classList.contains(modo-escuro)){
+    botao.textContent = "modo-claro"
+  }else{
+    botao.textContent = "modo-claro"
+  }
 }
 
 
