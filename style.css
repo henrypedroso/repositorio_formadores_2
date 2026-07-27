@@ -1,4 +1,8 @@
-body.modoescuro{
+body.modo-escuro{
     background-color: #2b2b2b;
+    color: #ffebd7;
+}
+
+body.modo-escuro.conteudo a{
     color: #ffebd7;
 }
