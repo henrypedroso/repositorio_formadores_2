@@ -1,7 +1,5 @@
 JavaScript
 
-const botao = document.getElementById('botao-tema');
-
 function verificaIdade() {
     let idade = prompt("Qual é a sua idade?");
     
@@ -12,7 +10,7 @@ function verificaIdade() {
     }
 }
 
-
+const botao = document.getElementById('botao-tema');
 
 function alternaModoEscuro() {
   document.body.classList.toggle('modo-escuro');

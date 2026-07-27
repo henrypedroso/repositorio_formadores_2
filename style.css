@@ -5,7 +5,7 @@ body {
 }
 
 /* Estilo para quando o JS adicionar a classe 'modo-escuro' */
-#botao-tema {
+body.modo-escuro {
   background-color: #121212;
   color: #ffffff;
 }
