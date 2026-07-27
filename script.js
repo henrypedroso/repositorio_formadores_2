@@ -15,10 +15,10 @@ const botao = document.getElementById('botao-tema');
 function alternaModoEscuro() {
   document.body.classList.toggle('modo-escuro');
 
-  if(document.body.classList.contains(modo-escuro)){
-    botao.textContent = "modo-claro"
-  }else{
-    botao.textContent = "modo-escuro"
+  if (document.body.classList.contains('modo-escuro')) {
+    botao.textContent = "Modo Claro"; // Texto para voltar ao claro
+  } else {
+    botao.textContent = "Modo Escuro"; // Texto para ir ao escuro
   }
 }
 
